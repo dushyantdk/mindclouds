@@ -1,0 +1,632 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #505763;
+	font-size: 14px;
+	font-weight: 400;
+	background: #f5f7fa;
+}
+
+h1,h2,h3,h4,h5{
+	font-weight: 600;
+}
+
+h2{
+	font-size: 22px;
+}
+
+h3{
+	font-size: 18px;
+}
+
+*, a{outline: none; text-decoration: none;}
+
+
+ul, li{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+
+.bg-light {
+ 	background-color: #fff !important;
+	min-height: 83px;
+	box-shadow: 0 1px 15px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.04);
+	position: sticky;
+    top:0;
+    z-index: 9;
+}
+
+.nav-item.search {
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+}
+
+.nav-item.dropdown span {
+
+    background:#686f7a;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	border-radius: 50%;
+	color:#fff;
+    text-align: center;
+    line-height: 45px;
+
+}
+
+
+.latest-news p {
+    background: #0468ff;
+	color:#fff;
+    margin: 0;
+    padding: 10px;
+}
+
+.latest-courses{
+	background: rgb(28,176,146);
+    background: linear-gradient(90deg,rgba(28,176,146,1) 0%,rgba(66,213,184,1) 100%);
+}
+
+.new-blogs{
+	background: rgb(67,155,255);
+	background: linear-gradient(90deg, rgba(67,155,255,1) 0%, rgba(110,177,255,1) 100%);
+}
+
+.new-events{
+	background: rgb(255,97,123);
+	background: linear-gradient(90deg, rgba(255,97,123,1) 0%, rgba(255,132,152,1) 100%);
+}
+
+.latst-add-block{  
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    position: relative;
+}
+
+.latst-add-block:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+.latst-add-block span {
+    position: absolute;
+    right: 30px;
+    bottom: 7px;
+    font-size: 20px;
+}
+
+.icon {
+	margin: 0 15px 0 0;
+    background:rgba(0,0,0,0.5);
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.latst-add-block .content {
+    display: flex;
+    flex-direction: column;
+   justify-content: start;
+}
+
+.latst-add-block .content h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+
+}
+
+.latst-add-block .content p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+
+}
+
+.latst-add-block:hover .block-hover {
+    display: flex;
+}
+
+.latest-courses .block-hover{
+	background: rgb(28,176,146);
+    background: linear-gradient(90deg,rgba(28,176,146,1) 0%,rgba(66,213,184,1) 100%);
+}
+
+.new-blogs .block-hover{
+	background: rgb(67,155,255);
+	background: linear-gradient(90deg, rgba(67,155,255,1) 0%, rgba(110,177,255,1) 100%);
+}
+
+.new-events .block-hover{
+	background: rgb(255,97,123);
+	background: linear-gradient(90deg, rgba(255,97,123,1) 0%, rgba(255,132,152,1) 100%);
+}
+
+.block-hover {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.learingpath-section {
+    width: 100%;
+    position: relative;
+}
+
+
+.section-title{
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 10px;
+}
+
+.section-title h2 {
+    display: flex;
+    justify-content: space-between;
+    color:#000;
+    margin: 0;
+}
+
+.section-title a {
+    color: #0073be;
+    font-size: 14px;
+    line-height: 14px;
+    padding-top: 9px;
+}
+.course-icon {
+    width: 64px;
+    height: 64px;
+    background: #fff;
+	overflow: hidden;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0px 1px 8px
+    rgba(0,0,0,0.3);
+    margin: 0 15px 0 0;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+.course-text-top-info h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.course-text-top-info p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.outline-btn {
+    border: 1px solid rgba(111,104,122,0.3);
+    width: 111px;
+    height: 39px;
+    border-radius: 3px;
+    line-height: 34px;
+    text-align: center;
+    color:#686f7a;
+    display: flex;
+	justify-content: center;
+}
+
+.outline-btn:hover{
+	text-decoration: none;
+	background: #0468ff;
+	color: #fff;
+}
+
+.progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 2px;
+    font-size: .75rem;
+    background-color: #686f7a;
+    border-radius: .25rem;
+    overflow: initial;
+    margin: 15px 0 0;
+}
+
+.progress-bar.bg-info {
+    height: 6px;
+    margin-top: -3px;
+    background-color: #0468ff !important;
+}
+
+.block-bg{
+	background: #fff;
+	box-shadow: 0px 1px 8px rgba(0,0,0,0.3);
+    border-radius: 3px;
+    padding:20px 15px;
+    position: relative;
+}
+
+.event-img {
+    margin: 0 15px 0 0;
+}
+
+.date h2 {
+    color:#0468ff;
+    font-size: 33px;
+    font-weight: 600;
+    float: left;
+    line-height: 25px;
+}
+
+.block-content h2 a{
+	color: #505763;
+}
+
+.date h2 span {
+    color: #191919;
+    font-size: 14px;
+    float: right;
+    line-height: 14px;
+    padding: 0 0 0 4px;
+    width: 37px;
+	word-wrap: break-word;
+}
+
+.block-bg .click-arrow {
+	color:#000;
+    position: absolute;
+    right: 12px;
+    bottom: 4px;
+    font-size: 17px;
+
+}
+
+.block-content h3 a{
+	color: #505763;
+}
+
+footer{
+	width: 100%;
+	position: relative;
+	padding:20px 0;
+	background: #fff;
+}
+
+
+/******************   HOME PAGE END  *******************/
+
+.courses-listing-section .block-img{
+	background: #f5f7fa;
+}
+.blog-list h2{
+	float: left;
+}
+.blog-list a{
+	float: left;
+}
+
+
+
+.blog-list .rating > label { 	
+ margin: 0 1px;
+}
+
+.blog-list .rating p{
+	font-size: 12px;
+	float: left;
+	padding: 2px 0 0 6px;
+	margin: 0;
+	width: auto;
+}
+
+.blog-list .rating-block p {
+    float: left;
+    width: auto;
+    margin: 0;
+}
+
+
+.blog-list p {
+    float: left;
+    width: 100%;
+}
+
+
+
+.course-info{
+    width: 100%;
+}
+
+.course-info p span{
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.filter ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.filter ul li a{
+	color: #000000;
+	font-weight: 600;
+	width: 100%;
+}
+.filter ul li{
+	margin: 0 0 10px 15px
+}
+.filter ul li li a{
+	color: #000000;
+	font-weight: normal;
+}
+
+
+
+/************************** COURSE LIST END **********************************/
+
+.rating-block {
+    float: left;
+    width: 216px;
+    margin:5px 0 0 6px;
+}
+
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+
+.rating > label { 
+  color: #000; 
+ float: right; 
+ font-size: 14px;
+ margin: 0;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #ff0000;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #ff0000;  } 
+
+
+
+/******************************* RATING END    ************************************/
+
+.course-short-dis{
+background: #0569ff;
+width: 100%;
+position: relative;
+padding: 30px 0;	
+}
+
+.course-short-dis .course-head{
+	width: 100%;
+	float: left;
+}
+
+
+.course-short-dis .course-head h1{
+	color:#fff;
+	float: left;
+	font-size: 32px;
+}
+
+.course-short-dis .course-head h1 a{
+	color:#fff;
+	float: left;
+}
+
+
+.course-short-dis .course-head .rating-block {
+    margin: 11px 0 0 6px;
+}
+
+.course-short-dis .course-head .rating-block p {
+    font-size: 12px;
+    padding: 2px 0 0 6px;
+    color: #fff;
+}
+
+.white-btn{
+	background: #fff;
+	border-radius: 3px;
+	color: #0569ff !important;
+	width:111px;
+	height: 39px;
+	line-height: 39px;
+	display: flex;
+	justify-content: center;
+}
+
+.corse-brief {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid 
+    #ddd;
+    padding: 10px 0;
+}
+
+.corse-brief p{
+	line-height: 14px;
+}
+
+.corse-brief ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion .card-header{
+	position: relative;
+}
+.accordion .card-header::after {
+    background-image: url(../img/angle-up.svg);
+    float: right;
+    content: '';
+    width: 12px;
+    height: 20px;
+}
+.accordion .card-header.collapsed::after{
+    /* symbol for "collapsed" panels */
+    background-image: url(../img/angle-down.svg);
+    float: right;
+    content: '';
+    width: 12px;
+    height: 20px;
+}
+
+
+.accordion .card {
+    border-width: 0 0 1px 0 !important;
+    border-color: #ddd !important;
+	background:transparent;
+    border-style: solid !important;
+}
+
+.accordion .card .card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: 
+    transparent;
+    border-bottom: none;
+}
+
+.accordion .card .card-body{
+	padding:0 1.25rem;
+}
+
+.accordion .card .card-body li {
+    padding: 12px 0;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.accordion .card .card-body li a{
+	font-size: 13px;
+}
+
+.accordion .card .card-body li a i{
+	font-size: 13px;
+	opacity: 0.8;
+}
+
+.list-ul li{
+	font-size: 14px;
+	position: relative;
+	padding: 8px 0 8px 25px;
+}
+
+.list-ul li::before {
+    position: absolute;
+    content: '';
+    top: 13px;
+    left: 0;
+    background-image: url(../img/check.svg);
+    width: 30px;
+    height: 30px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    color:#0569ff;
+}
+
+.trainer-insrtruction ul li{
+	margin:0 0 10px;
+}
+
+.career-opp .list-ul li {
+    width: 40%;
+    float: left;
+}
+
+
+/*********************************    DETAIL PAGE END     *******************************************/
+
+
+
+
+@media screen and (max-width: 670px) {
+
+.upcoming-events .d-flex{
+	display: block !important; 
+	text-align: center;
+}	
+.block-img {
+    margin: 0 0 15px;
+}
+
+.time {
+    text-align: right;
+    margin: 0 0 15px;
+}
+
+.block-img.event-img {
+    margin: 0 15px 15px 0;
+}
+
+.event-list-content .venue{
+	float: left;
+}
+
+.course-text-top-info h3 {
+    font-size: 16px;
+}	
+
+.corse-brief ul {
+    display: block;
+}
+
+.corse-brief ul li{
+	margin: 0 0 10px;
+}
+
+.courses-listing-section .block-bg{
+	display: block !important; 
+	float: left;
+	width:100%;
+}
+
+.courses-listing-section .block-bg .block-img{
+	text-align: center;
+	margin: 0 !important;
+	padding: 10px 0;
+}
+
+.rating-block {
+    float: left;
+    width: 100%;
+    margin: 5px 0 5px -5px;
+}
+
+.course-info {
+    width: 100%;
+    display: block !important;
+}
+
+.pagination {
+    margin: 0 0 15px;
+}
+
+.course-short-dis .course-head .rating-block {
+    margin: 11px 0 0 0;
+}
+
+}
