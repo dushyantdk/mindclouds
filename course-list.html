@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet"> 
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>Courses List</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <a class="navbar-brand" href="#"><a href="#"><img src="img/logo.png" alt="logo"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse pl-4" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Feedback</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item search">
+            <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span>DS</span>
+              </a>
+              <!-- Dropdown - User Information -->
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Profile
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Settings
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Activity Log
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Logout
+                </a>
+              </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="latest-news mt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p><span>Latest News : </span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="courses-listing-section mt-4 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <div class="block-bg d-flex justify-content-between">
+                  <div class="block-img mr-3">
+                    <img src="img/java.png" alt="Course image"/>
+                  </div>
+                  <div class="block-content blog-list">
+                    <div class="course-head">
+                      <h2 class="mb-2"><a href="#">Java</a> </h2>
+                      <div class="rating-block">
+                        <fieldset class="rating">
+                          <input type="radio" id="star2half" name="rating" value="2 and a half" />
+                          <label class="half" for="star2half" title="Kinda bad - 2.5 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star3half" name="rating" value="3 and a half" />
+                          <label class="half" for="star3half" title="Meh - 3.5 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star4" name="rating" value="4" />
+                          <label class = "full" for="star4" title="Pretty good - 4 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star4half" name="rating" value="4 and a half" />
+                          <label class="half" for="star4half" title="Pretty good - 4.5 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star5" name="rating" value="5" />
+                          <label class = "full" for="star5" title="Awesome - 5 stars"><i class="far fa-star"></i></label>
+                          
+                        </fieldset>
+                        <p>4.8 (206 Ratings)</p>
+                        </div> 
+                    </div>
+
+                    <p>This course is specially designed for people new to the Salesforce Platform.We cover all the topics that deal with the basics of the CRM & Salesforce ecosystem.</p>
+                    <div class="course-info d-flex justify-content-between">
+                      <p><span>CATEGORY:</span> Development </p>
+                      <p><span>TYPE:</span> SELF PACED </p>
+                      <p><span>Duration:</span> 6 Months</p>
+                    </div>
+                  </div>
+                  <a href="#" class=" click-arrow animated flash infinite slow"><i class="fas fa-angle-double-right"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-12 mb-4">
+                <div class="block-bg d-flex justify-content-between">
+                  <div class="block-img mr-3">
+                    <img src="img/qa.png" alt="Course image"/>
+                  </div>
+                  <div class="block-content blog-list">
+                    <div class="course-head">
+                      <h2 class="mb-2"><a href="#">QA(Manual and automation)</a> </h2>
+                      <div class="rating-block">
+                        <fieldset class="rating">
+                          <input type="radio" id="star2half" name="rating" value="2 and a half" />
+                          <label class="half" for="star2half" title="Kinda bad - 2.5 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star3half" name="rating" value="3 and a half" />
+                          <label class="half" for="star3half" title="Meh - 3.5 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star4" name="rating" value="4" />
+                          <label class = "full" for="star4" title="Pretty good - 4 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star4half" name="rating" value="4 and a half" />
+                          <label class="half" for="star4half" title="Pretty good - 4.5 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star5" name="rating" value="5" />
+                          <label class = "full" for="star5" title="Awesome - 5 stars"><i class="far fa-star"></i></label>
+                          
+                        </fieldset>
+                        <p>4.8 (206 Ratings)</p>
+                        </div> 
+                    </div>
+                    <p>This course is specially designed for people new to the Salesforce Platform.We cover all the topics that deal with the basics of the CRM & Salesforce ecosystem.</p>
+                    <div class="course-info d-flex justify-content-between">
+                      <p><span>CATEGORY:</span> Development </p>
+                      <p><span>TYPE:</span> SELF PACED </p>
+                      <p><span>Duration:</span> 6 Months</p>
+                    </div>
+                  </div>
+                  <a href="#" class=" click-arrow animated flash infinite slow"><i class="fas fa-angle-double-right"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-12 mb-4">
+                <div class="block-bg d-flex justify-content-between">
+                  <div class="block-img mr-3">
+                    <img src="img/android.png" alt="Course image"/>
+                  </div>
+                  <div class="block-content blog-list">
+                    <div class="course-head">
+                      <h2 class="mb-2"><a href="#">Android development</a> </h2>
+                      <div class="rating-block">
+                        <fieldset class="rating">
+                          <input type="radio" id="star2half" name="rating" value="2 and a half" />
+                          <label class="half" for="star2half" title="Kinda bad - 2.5 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star3half" name="rating" value="3 and a half" />
+                          <label class="half" for="star3half" title="Meh - 3.5 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star4" name="rating" value="4" />
+                          <label class = "full" for="star4" title="Pretty good - 4 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star4half" name="rating" value="4 and a half" />
+                          <label class="half" for="star4half" title="Pretty good - 4.5 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star5" name="rating" value="5" />
+                          <label class = "full" for="star5" title="Awesome - 5 stars"><i class="far fa-star"></i></label>
+                          
+                        </fieldset>
+                        <p>4.8 (206 Ratings)</p>
+                        </div> 
+                    </div>
+                    <p>This course is specially designed for people new to the Salesforce Platform.We cover all the topics that deal with the basics of the CRM & Salesforce ecosystem.</p>
+                    <div class="course-info d-flex justify-content-between">
+                      <p><span>CATEGORY:</span> Development </p>
+                      <p><span>TYPE:</span> SELF PACED </p>
+                      <p><span>Duration:</span> 6 Months</p>
+                    </div>
+                  </div>
+                  <a href="#" class=" click-arrow animated flash infinite slow"><i class="fas fa-angle-double-right"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-12 mb-4">
+                <div class="block-bg d-flex justify-content-between">
+                  <div class="block-img mr-3">
+                    <img src="img/python.png" alt="Course image"/>
+                  </div>
+                  <div class="block-content blog-list">
+                    <div class="course-head">
+                      <h2 class="mb-2"><a href="#">Python</a> </h2>
+                      <div class="rating-block">
+                        <fieldset class="rating">
+                          <input type="radio" id="star2half" name="rating" value="2 and a half" />
+                          <label class="half" for="star2half" title="Kinda bad - 2.5 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star3half" name="rating" value="3 and a half" />
+                          <label class="half" for="star3half" title="Meh - 3.5 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star4" name="rating" value="4" />
+                          <label class = "full" for="star4" title="Pretty good - 4 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star4half" name="rating" value="4 and a half" />
+                          <label class="half" for="star4half" title="Pretty good - 4.5 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star5" name="rating" value="5" />
+                          <label class = "full" for="star5" title="Awesome - 5 stars"><i class="far fa-star"></i></label>
+                          
+                        </fieldset>
+                        <p>4.8 (206 Ratings)</p>
+                        </div> 
+                    </div>
+                    
+                    <p>This course is specially designed for people new to the Salesforce Platform.We cover all the topics that deal with the basics of the CRM & Salesforce ecosystem.</p>
+                    <div class="course-info d-flex justify-content-between">
+                      <p><span>CATEGORY:</span> Development </p>
+                      <p><span>TYPE:</span> SELF PACED </p>
+                      <p><span>Duration:</span> 6 Months</p>
+                    </div>
+                  </div>
+                  <a href="#" class=" click-arrow animated flash infinite slow"><i class="fas fa-angle-double-right"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-12 mb-4">
+                <div class="block-bg d-flex justify-content-between">
+                  <div class="block-img mr-3">
+                    <img src="img/html.png" alt="Course image"/>
+                  </div>
+                  <div class="block-content blog-list">
+                    <div class="course-head">
+                      <h2 class="mb-2"><a href="#">HTML</a> </h2>
+                      <div class="rating-block">
+                        <fieldset class="rating">
+                          <input type="radio" id="star2half" name="rating" value="2 and a half" />
+                          <label class="half" for="star2half" title="Kinda bad - 2.5 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star3half" name="rating" value="3 and a half" />
+                          <label class="half" for="star3half" title="Meh - 3.5 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star4" name="rating" value="4" />
+                          <label class = "full" for="star4" title="Pretty good - 4 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star4half" name="rating" value="4 and a half" />
+                          <label class="half" for="star4half" title="Pretty good - 4.5 stars"><i class="far fa-star"></i></label>
+                          <input type="radio" id="star5" name="rating" value="5" />
+                          <label class = "full" for="star5" title="Awesome - 5 stars"><i class="far fa-star"></i></label>
+                          
+                        </fieldset>
+                        <p>4.8 (206 Ratings)</p>
+                        </div> 
+                    </div>
+                   
+                    <p>This course is specially designed for people new to the Salesforce Platform.We cover all the topics that deal with the basics of the CRM & Salesforce ecosystem.</p>
+                    <div class="course-info d-flex justify-content-between">
+                      <p><span>CATEGORY:</span> Development </p>
+                      <p><span>TYPE:</span> SELF PACED </p>
+                      <p><span>Duration:</span> 6 Months</p>
+                    </div>
+                  </div>
+                  <a href="#" class=" click-arrow animated flash infinite slow"><i class="fas fa-angle-double-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-double-left"></i></a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-double-right"></i></a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="row">
+              <div class="col-lg-12">
+                  <div class="block-bg filter">
+                    <div class="section-title">
+                      <h2>Filters <a href="#">View All</a></h2>
+                    </div>
+                    <ul class="mt-3">
+                      <li>
+                        <a href="#">IT & Software</a>
+                        <ul>
+                          <li><a href="#">Hardware</a></li>
+                          <li><a href="#">Operating Systems</a></li>
+                          <li><a href="#">Network & Security</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Finance & Accounting</a>
+                        <ul>
+                          <li><a href="#">Economics</a></li>
+                          <li><a href="#">Finance</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Marketing</a>
+                      </li>
+                      <li>
+                        <a href="#">Business</a>
+                        <ul>
+                          <li><a href="#">Finance</a></li>
+                          <li><a href="#">Communication</a></li>
+                          <li><a href="#">Sales</a></li>
+                          <li><a href="#">Development</a></li>
+                          <li><a href="#">Mobile Apps</a></li>
+                          <li><a href="#">Web Development</a></li>
+                          <li><a href="#">Programming Language</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Design</a>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-lg-12">
+                <div class="section-title">
+                      <h2>Blogs <a href="#">View All</a></h2>
+                </div>
+              </div>
+              <div class="col-lg-12 mt-4">
+                <div class="block-bg event-list">
+                  <div class="event-list-content block-content">
+                    <h3 class="mb-2"><a href="#">Hold my hand and enjoy trips around the world</a></h3>
+                    <p>To code will always appear difficult, you would like to find out a way to write code.... </p>
+                    <div class="venue">
+                      <div class="time">
+                        <p class="mb-0"><i class="far fa-calendar-alt"></i> Aug 28, 2019</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="#" class=" click-arrow animated flash infinite slow"><i class="fas fa-angle-double-right"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-12 mt-4">
+                <div class="block-bg event-list">
+                  <div class="event-list-content block-content">
+                    <h3 class="mb-2"><a href="#">Hold my hand and enjoy trips around the world</a></h3>
+                    <p>To code will always appear difficult, you would like to find out a way to write code.... </p>
+                    <div class="venue">
+                      <div class="time">
+                        <p class="mb-0"><i class="far fa-calendar-alt"></i> Aug 28, 2019</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="#" class=" click-arrow animated flash infinite slow"><i class="fas fa-angle-double-right"></i></a>
+                </div>
+              </div>
+            </div>  
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p class="mb-0">Copyright© 2019 mindZcloud Technologies Pvt. Ltd. | All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
