@@ -168,7 +168,12 @@ ul, li{
     width: 100%;
     position: relative;
 }
+.block-content {
 
+    width: 100%;
+    float: left;
+
+}
 
 .section-title{
     border-bottom: 1px solid #ddd;
@@ -583,7 +588,8 @@ padding: 30px 0;
 }
 
 .event-list-content .venue{
-	float: left;
+    float: left;
+    width: 100%;
 }
 
 .course-text-top-info h3 {
