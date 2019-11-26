@@ -259,6 +259,7 @@ ul, li{
     border-radius: 3px;
     padding:20px 15px;
     position: relative;
+    float: left;
 }
 
 .event-img {
