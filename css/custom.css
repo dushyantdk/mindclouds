@@ -674,6 +674,10 @@ padding: 30px 0;
     width: 40px;
 }
 
+.feedback-icon:hover{
+    color: #fff;
+}
+
 .tooltip-inner {
     background-color: #000;
 }
