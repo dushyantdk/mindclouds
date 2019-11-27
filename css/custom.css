@@ -28,6 +28,8 @@ ul, li{
 }
 
 
+
+
 .bg-light {
  	background-color: #fff !important;
 	min-height: 83px;
@@ -296,6 +298,11 @@ border-bottom: 2px solid#0468ff;
     text-decoration: none;
     background: #0468ff;
     color: #fff;
+}
+
+.disabled{
+    pointer-events: none;
+    opacity: 0.6
 }
 
 .progress {
