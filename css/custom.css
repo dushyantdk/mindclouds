@@ -300,6 +300,28 @@ border-bottom: 2px solid#0468ff;
     color: #fff;
 }
 
+.blue-btn {
+    background: #0468ff;
+    min-width: 111px;
+    height: 39px;
+    border-radius: 3px;
+    line-height: 37px;
+    text-align: center;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-btn:hover{
+    text-decoration: none;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.blue-btn.active {
+    opacity: 0.8;
+}
+
 .disabled{
     pointer-events: none;
     opacity: 0.6
@@ -1046,4 +1068,49 @@ padding: 30px 0;
     bottom: -18px;
     width: 100px;
   }
+}
+
+/***********************    Profile Page     ******************************/
+
+.profile-section .card-header {
+    background-color: #fff;
+}
+
+.profile-section .profile-info .card{
+    flex-direction: row;
+}
+
+.card-form__body {
+    background-color: 
+    #f6f6f6;
+}
+
+.bootstrap-select .bs-ok-default::after {
+    width: 0.3em;
+    height: 0.6em;
+    border-width: 0 0.1em 0.1em 0;
+    transform: rotate(45deg) translateY(0.5rem);
+}
+
+.btn.dropdown-toggle:focus {
+    outline: none !important;
+}
+
+.btn.dropdown-toggle.bg-white.rounded-pill.px-4.py-3.shadow-sm.bs-placeholder {
+    display: block;
+width: 100%;
+height: calc(1.5em + .75rem + 2px);
+padding: .380rem 1rem .380rem 0.85rem !important;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color:
+#495057;
+background-color:
+#fff !important;
+background-clip: padding-box;
+border: 1px solid
+    #ced4da;
+    border-radius: .25rem !important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
