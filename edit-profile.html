@@ -23,6 +23,14 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ml-auto">
+                  <li class="nav-item search">
+                    <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                    <div class="search-from animated fadeIn">
+                      <form>
+                        <input type="text" placeholder="Search here" />
+                      </form>
+                    </div>
+                  </li>
                   <li class="nav-item active">
                     <a class="nav-link" href="#">Dashboard</a>
                   </li>
@@ -37,14 +45,6 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Feedback</a>
-                  </li>
-                  <li class="nav-item search">
-                    <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
-                    <div class="search-from animated fadeIn">
-                      <form>
-                        <input type="text" placeholder="Search here" />
-                      </form>
-                    </div>
                   </li>
                   <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -199,7 +199,7 @@
         </div>
       </div>
     </footer>
-    <a href="#" class="feedback-icon" data-toggle="tooltip" data-placement="top" title="Share Feedback"><i class="far fa-comments"></i></a>
+   <a href="#" class="feedback-icon" data-toggle="tooltip" data-placement="top" title="Share Feedback"><i class="far fa-question-circle"></i> Help</a>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -219,18 +219,6 @@ $(function () {
     $('.selectpicker').selectpicker();
 });
     </script>
-    <script type="text/javascript">
-$(document).ready(function () {
-    //Disable full page
-    $("body").on("contextmenu",function(e){
-        return false;
-    });
     
-    //Disable part of page
-    $("#id").on("contextmenu",function(e){
-        return false;
-    });
-});
-</script>
   </body>
 </html>
