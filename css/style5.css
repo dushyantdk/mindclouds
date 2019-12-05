@@ -64,6 +64,12 @@
     flex-direction: column;
 }
 
+#sidebar ul li {
+    position: relative;
+}
+
+
+
 #sidebar ul li a {
     padding: 10px 36px 10px 10px;
     display: block;
@@ -78,17 +84,56 @@
     white-space: break-spaces;
 }
 #sidebar ul li a:hover {
-    color:#505763;
-    background: #f7f8fa;
+    color:#fff;
+    background: #0468ff;
     text-decoration: none;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
+color:#fff;
+background: #0468ff;
 
-color:#505763;
+}
 
-background:#f7f8fa;
+#sidebar ul li.active > a.dropdown-toggle::after{
+    border-color: #fff !important;
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    border-style: solid;
+    border-width: 0px 1px 1px 0px !important;
+    transform: rotate(45deg);
+    height: 10px;
+    width: 10px;
+}
+#sidebar ul li:hover .dropdown-toggle.collapsed::after{
+     border-color: #fff !important;
+}
+.dropdown-toggle.collapsed::after {
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    border-style: solid;
+    border-width: 0px 1px 1px 0px !important;
+    transform: rotate(45deg);
+    height: 10px;
+    width: 10px;
+    border-color:#505763 !important;
+}
 
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    border-style: solid;
+    border-width: 0px 1px 1px 0px !important;
+    transform: rotate(45deg);
+    height: 10px;
+    width: 10px;
+    border-color:#505763 !important;
 }
 
 #sidebar ul li .list-unstyled div.sub-item-block{
@@ -98,6 +143,23 @@ background:#f7f8fa;
     justify-content: space-between;
     color:#14171c;
     padding: 8px 18px;
+    position: relative;
+}
+
+#sidebar ul li .list-unstyled div.sub-item-block .check{
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background:#505763;
+}
+
+#sidebar ul li .list-unstyled div.sub-item-block .check.active, #sidebar ul li .list-unstyled div.sub-item-block:hover .check{
+    background:#0468ff;
+}
+
+#sidebar ul li .list-unstyled div.sub-item-block:hover #sidebar ul li .subitem a{
+    color: #0468ff;
 }
 
 .subitem {
@@ -107,6 +169,18 @@ background:#f7f8fa;
     flex-direction: column;
     margin-left: 4px;
 }
+
+#sidebar ul li .subitem a {
+    background:transparent;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    padding: 0;
+}
+
+#sidebar ul li .subitem a:hover, sidebar ul li .subitem a.active{
+    color:#0468ff;
+} 
 
 .subitem-icon {
     display: flex;
@@ -128,18 +202,7 @@ a[data-toggle="collapse"] {
     position: relative;
 }
 
-.dropdown-toggle::after {
-    display: block;
-    position: absolute;
-    top: 13px;
-    right: 20px;
-    border-style: solid;
-    border-width: 0px 1px 1px 0px !important;
-    transform: rotate(45deg);
-    height: 10px;
-    width: 10px;
-    border-color:#505763 !important;
-}
+
 
 
 
