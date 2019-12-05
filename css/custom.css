@@ -60,23 +60,26 @@ ul, li{
 
 .search-from {
     position: absolute;
-    right: 0px;
+    left: 0px;
     top: 0;
-    width: 280px;
+    min-width: 477px;
     display: none;
+    width: 100%;
+}
+.form-control {
+    font-size: 13px;
 }
 
 .search-from input {
-    background:#fff;
-    border: 1px solid#ddd;
-    border-radius: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
     height: 44px;
     padding: 0 15px;
     box-sizing: border-box;
     font-size: 14px;
     width: 100%;
 }
-
 .search:hover .search-from{
     display: block;
 }
@@ -276,6 +279,7 @@ border-bottom: 2px solid#0468ff;
 }
 
 
+
 .outline-btn {
     border: 1px solid rgba(111,104,122,0.3);
     min-width: 111px;
@@ -299,6 +303,8 @@ border-bottom: 2px solid#0468ff;
     background: #0468ff;
     color: #fff;
 }
+
+
 
 .blue-btn {
     background: #0468ff;
@@ -558,6 +564,10 @@ padding: 30px 0;
 	display: flex;
 	justify-content: center;
 }
+.user-img .white-btn{
+margin: 0 auto;
+color: #0468ff;
+}
 
 .corse-brief {
     width: 100%;
@@ -689,18 +699,18 @@ padding: 30px 0;
 
 .feedback-icon {
     position: fixed;
-    bottom:30px;
-    right: 20px;
-    width: 40px;
+    bottom: 30px;
     height: 40px;
     background: #007bff;
     color:#fff;
-    font-size: 22px;
-    border-radius: 50%;
+    border-radius: 20px;
     text-align: center;
     line-height: 40px;
     right: 25px;
-    width: 40px;
+    width: 84px;
+    font-size: 14px;
+    box-shadow: 0px 1px 8px
+    rgba(0,0,0,0.3);
 }
 
 .feedback-icon:hover{
@@ -1071,18 +1081,21 @@ padding: 30px 0;
 }
 
 /***********************    Profile Page     ******************************/
-
+.card.card-small {
+    box-shadow: 0px 1px 8px 
+    rgba(0,0,0,0.3);
+}
 .profile-section .card-header {
     background-color: #fff;
 }
 
-.profile-section .profile-info .card{
+.profile-section .profile-info .card {
     flex-direction: row;
+    box-shadow: 0px 1px 8px rgba(0,0,0,0.3);
 }
 
 .card-form__body {
-    background-color: 
-    #f6f6f6;
+    background-color:#fbfbfb;
 }
 
 .bootstrap-select .bs-ok-default::after {
