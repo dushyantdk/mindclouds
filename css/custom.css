@@ -887,6 +887,13 @@ color: #0468ff;
     float: left;
     margin: 0 0 10px;
 }
+
+.home-user-avtar span{
+    height: 40vh;
+}
+.read-polciy {
+    position: relative;
+}
 }
 
 /*******************   LOADER CSS START   **************************/
