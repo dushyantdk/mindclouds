@@ -762,139 +762,7 @@ color: #0468ff;
     border-right-color: #000 !important;
 }
 
-@media screen and (max-width: 670px) {
-    body{
-        font-size: 13px;
-    }
-    
-    h1,h2,h3,h4,h5{
-        font-weight: 600;
-    }
-    
-    h2{
-        font-size: 18px;
-    }
-    
-    h3{
-        font-size: 16px;
-    }
-.navbar-expand-lg .navbar-nav {
-    align-items: initial;
-}
-.upcoming-events .d-flex{
-	display: block !important; 
-}	
 
-.block-img.blog-img {
-    margin: 0 10px 0 0;
-}
-
-.right-section-list .time {
-    text-align: left;
-}
-
-.date {
-    float: left;
-    margin: 5px 0 0;
-}
-
-.time {
-    text-align: left;
-    margin: 0 0 0 15px;
-    float: left;
-}
-
-.blog-list-content .time {
-    margin: 5px 0 0 0;
-}
-
-.block-img.event-img {
-    margin: 0 0 15px 0;
-    width: 100%;
-}
-
-.block-img.event-img img{
-    width: 100%;
-}
-
-.event-list-content .venue{
-    float: left;
-    width: 100%;
-}
-
-.course-text-top-info h3 {
-    font-size: 16px;
-}	
-
-.corse-brief ul {
-    display: block;
-}
-
-.corse-brief ul li{
-	margin: 0 0 10px;
-}
-
-.courses-listing-section .block-bg{
-	display: block !important; 
-	float: left;
-	width:100%;
-}
-
-.courses-listing-section .block-bg .block-img{
-	text-align: center;
-	margin: 0 0 15px 0 !important;
-	padding: 10px 0;
-}
-
-.rating-block {
-    float: left;
-    width: 100%;
-    margin: 5px 0 5px -5px;
-}
-
-.course-info {
-    width: 100%;
-    display: block !important;
-    margin: 10px 0 0 0;
-    float: left;
-}
-
-.blog-list p{
-    margin: 0;
-}
-
-.blog-list .course-info p {
-    float: left;
-    width: 100%;
-    margin: 0;
-    font-size: 12px;
-}
-
-.pagination {
-    margin: 0 0 15px;
-}
-
-.course-short-dis .course-head .rating-block {
-    margin: 11px 0 0 0;
-}
-
-.blog-list h2 {
-    float: left;
-    margin: 0 !important;
-}
-.course-head {
-    width: 100%;
-    float: left;
-    margin: 0 0 10px;
-}
-
-.home-user-avtar span{
-    height: 40vh;
-}
-.read-polciy {
-    position: relative;
-}
-}
 
 /*******************   LOADER CSS START   **************************/
 
@@ -1488,5 +1356,186 @@ border: 1px solid
     height: 30px;
     opacity: 1 !important;
     border-radius: 50%;
+
+}
+
+
+.blog-post-info{
+    width: 100%;
+    float: left;
+    margin: 0 0 20px;
+}
+
+.blog-post-info ul {
+    float: left;
+}
+
+.blog-post-info ul li {
+    float: left;
+    margin: 0 12px;
+}
+
+.blog-post-info ul li:first-child{
+    margin-left: 0;
+} 
+
+
+.blog-info p{
+    color: #505763;
+    font-size: 14px;
+}
+
+.blog-info .blue-btn{
+    float: right;
+}
+
+/********************************   RESONSIVE CSS START      ********************************************/
+
+
+@media screen and (max-width: 670px) {
+    body{
+        font-size: 13px;
+    }
+    
+    h1,h2,h3,h4,h5{
+        font-weight: 600;
+    }
+    
+    h2{
+        font-size: 18px;
+    }
+    
+    h3{
+        font-size: 16px;
+    }
+.navbar-expand-lg .navbar-nav {
+    align-items: initial;
+}
+.upcoming-events .d-flex{
+    display: block !important; 
+}   
+
+.block-img.blog-img {
+    margin: 0 10px 0 0;
+}
+
+.right-section-list .time {
+    text-align: left;
+}
+
+.date {
+    float: left;
+    margin: 5px 0 0;
+}
+
+.time {
+    text-align: left;
+    margin: 0 0 0 15px;
+    float: left;
+}
+
+.blog-list-content .time {
+    margin: 5px 0 0 0;
+}
+
+.block-img.event-img {
+    margin: 0 0 15px 0;
+    width: 100%;
+}
+
+.block-img.event-img img{
+    width: 100%;
+}
+
+.event-list-content .venue{
+    float: left;
+    width: 100%;
+}
+
+.course-text-top-info h3 {
+    font-size: 16px;
+}   
+
+.corse-brief ul {
+    display: block;
+}
+
+.corse-brief ul li{
+    margin: 0 0 10px;
+}
+
+.courses-listing-section .block-bg{
+    display: block !important; 
+    float: left;
+    width:100%;
+}
+
+.courses-listing-section .block-bg .block-img{
+    text-align: center;
+    margin: 0 0 15px 0 !important;
+    padding: 10px 0;
+}
+
+.rating-block {
+    float: left;
+    width: 100%;
+    margin: 5px 0 5px -5px;
+}
+
+.course-info {
+    width: 100%;
+    display: block !important;
+    margin: 10px 0 0 0;
+    float: left;
+}
+
+.blog-list p{
+    margin: 0;
+}
+
+.blog-list .course-info p {
+    float: left;
+    width: 100%;
+    margin: 0;
+    font-size: 12px;
+}
+
+.pagination {
+    margin: 0 0 15px;
+}
+
+.course-short-dis .course-head .rating-block {
+    margin: 11px 0 0 0;
+}
+
+.blog-list h2 {
+    float: left;
+    margin: 0 !important;
+}
+.course-head {
+    width: 100%;
+    float: left;
+    margin: 0 0 10px;
+}
+
+.home-user-avtar span{
+    height: 40vh;
+}
+.read-polciy {
+    position: relative;
+}
+
+.blog-listing .block-bg{
+    display: block !important;
+}
+
+.blog-list-img {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.blog-info .blue-btn {
+    float: none;
+}
 
 }
