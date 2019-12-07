@@ -1389,6 +1389,27 @@ border: 1px solid
     float: right;
 }
 
+.blog-list a.tags {
+    background:#ededed;
+    padding: 8px 20px 8px 10px;
+    border-radius: 0 20px 20px 0;
+    position: relative;
+    color: #505763;
+    font-size: 12px;
+    line-height: 13px;
+    margin: 0 0 8px 8px;
+}
+
+.blog-list a.tags::after {
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border-radius: 50%;
+    top: 11px;
+    right: 6px;
+}
 /********************************   RESONSIVE CSS START      ********************************************/
 
 
