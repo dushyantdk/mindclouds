@@ -1088,6 +1088,10 @@ border: 1px solid
 .profile-section td{
   padding-left: 0
 }
+
+.main-profile-contact-list .media-body span {
+    font-weight: 700;
+}
 /************************************ testimonial-section Start   ********************************************************/
 
 .testimonial-section{
